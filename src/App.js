@@ -9,6 +9,7 @@ export default function App() {
         <a
           href="https://www.linkedin.com/in/ingrid-opdebeeck-1b1b11148/"
           target="_blank"
+          rel="noreferrer"
         >
           {" "}
           Ingrid Opdebeeck
@@ -17,6 +18,7 @@ export default function App() {
         <a
           href="https://github.com/Ingrid-98/weather-app-react"
           target="_blank"
+          rel="noreferrer"
         >
           open-sourced on Github
         </a>

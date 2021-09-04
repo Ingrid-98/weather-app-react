@@ -13,6 +13,7 @@ export default function App() {
             href="https://www.linkedin.com/in/ingrid-opdebeeck-1b1b11148/"
             target="_blank"
             rel="noreferrer"
+            className="link"
           >
             {" "}
             Ingrid Opdebeeck

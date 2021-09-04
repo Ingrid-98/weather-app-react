@@ -38,7 +38,8 @@
 .Weather canvas {
   margin-right: 10px;
   margin-top: 5px;
-  display: inline-block;
+  position: relative;
+  top: 20px;
 }
 .Weather .temperature {
   font-weight: bold;
@@ -46,6 +47,9 @@
   font-size: 64px;
   line-height: 64px;
   font-weight: 400;
+  margin-left: 60px;
+  position: relative;
+  top: -50px;
 }
 
 .Weather .unit {
@@ -53,5 +57,9 @@
   font-weight: 400;
   font-size: 16px;
   position: relative;
-  top: -32px;
+  line-height: 1;
+  top: -82px;
+}
+.Weather .unit .convert {
+  text-decoration: none;
 }

@@ -6,7 +6,7 @@ export default function weatherForecastDay(props) {
     return `${temperature}°`;
   }
   function minTempereature() {
-    let temperature = Math.round(props.data.temp.max);
+    let temperature = Math.round(props.data.temp.min);
     return `${temperature}°`;
   }
   function day() {

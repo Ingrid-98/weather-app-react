@@ -21,7 +21,7 @@ export default function FriendlyDate(props) {
   }
   return (
     <div>
-      {day} {hours}:{minutes}
+      📆 {day} {hours}:{minutes}
     </div>
   );
 }
